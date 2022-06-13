@@ -3,6 +3,7 @@ import {SafeAreaView} from 'react-native';
 import ComponentCard from '../component/ComponentCard';
 import FlatListContainer from '../containers/FlatListContainer';
 import textImage from '../assets/texts.jpg';
+import buttonImage from '../assets/buttons.png';
 
 const Home = ({navigation}) => {
   return (
@@ -12,7 +13,7 @@ const Home = ({navigation}) => {
         dataList={[
           {id: 1, name: 'AlertList', image: textImage},
           {id: 2, name: 'AvatarList', image: textImage},
-          {id: 3, name: 'ButtonList', image: textImage},
+          {id: 3, name: 'ButtonList', image: buttonImage},
           {id: 4, name: 'CheckboxList', image: textImage},
           {id: 5, name: 'DividerList', image: textImage},
           {id: 6, name: 'FlatList', image: textImage},

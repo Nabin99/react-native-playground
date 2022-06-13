@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
   textContainer: {
     width: '100%',
     ...stylesProvider.flexStyles(),
-    backgroundColor: '#414141',
+    backgroundColor: '#003532',
     opacity: 0.9,
     height: 300,
   },

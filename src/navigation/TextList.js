@@ -43,8 +43,9 @@ const list = [
 const TextList = () => {
   return (
     <ScrollView style={styles.scroller}>
-      {list.map(obj => (
+      {list.map((obj, i) => (
         <TextContainer
+          key={i}
           color={obj.color}
           fontFamily={obj.fontFamily}
           fontStyle={obj.fontStyle}

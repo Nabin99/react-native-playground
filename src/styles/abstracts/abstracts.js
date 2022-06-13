@@ -1,13 +1,13 @@
 export const stylesConstant = {
   color: {
-    primaryColor: '#2d6869',
+    primaryColor: '#003532',
     secondaryColor: 'white',
     borderRadius: '10',
     borderWidth: 5,
     borderColorDanger: 'red',
     borderColorWarning: 'orange',
     borderColorSuccess: 'green',
-    borderColorDefault: '#2d6869',
+    borderColorDefault: '#003532',
     inActiveColor: 'grey',
   },
   padding: 10,

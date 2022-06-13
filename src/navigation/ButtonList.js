@@ -1,11 +1,16 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {Button} from 'react-native';
+import ButtonComp from '../component/Button';
+import ScrollViewContainer from '../containers/ScrollViewContainer';
+import {faAdd} from '@fortawesome/free-solid-svg-icons';
 
 const ButtonList = () => {
   return (
-    <View>
-      <Text>This is example</Text>
-    </View>
+    <ScrollViewContainer>
+      <ButtonComp title="Click Me" />
+      <Button title="Click Me" />
+      <ButtonComp title="Add" icon={faAdd} />
+    </ScrollViewContainer>
   );
 };
 
