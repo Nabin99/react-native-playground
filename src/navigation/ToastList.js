@@ -1,11 +1,13 @@
 import React from 'react';
 import {View, Text} from 'react-native';
+import Toast from '../component/Toast';
+import ScrollViewContainer from '../containers/ScrollViewContainer';
 
 const ToastList = () => {
   return (
-    <View>
-      <Text>This is example</Text>
-    </View>
+    <ScrollViewContainer>
+      <Toast />
+    </ScrollViewContainer>
   );
 };
 

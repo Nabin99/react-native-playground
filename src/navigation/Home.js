@@ -4,6 +4,7 @@ import ComponentCard from '../component/ComponentCard';
 import FlatListContainer from '../containers/FlatListContainer';
 import textImage from '../assets/texts.jpg';
 import buttonImage from '../assets/buttons.png';
+import toastImage from '../assets/Toast.jpeg';
 
 const Home = ({navigation}) => {
   return (
@@ -24,7 +25,7 @@ const Home = ({navigation}) => {
           {id: 11, name: 'SwitchList', image: textImage},
           {id: 12, name: 'TextareaList', image: textImage},
           {id: 13, name: 'TextList', image: textImage},
-          {id: 14, name: 'ToastList', image: textImage},
+          {id: 14, name: 'ToastList', image: toastImage},
         ]}
         renderItem={({item}) => (
           <ComponentCard
