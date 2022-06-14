@@ -23,26 +23,26 @@ This project showcase different components used in react native applications.
 
 In the project directory, you can run:
 
-### `yarn react-native run-android`
+### `yarn run android`
 
 Runs the app in the android development mode.\
 
 The app will reload if you make edits.\
 
-### `yarn react-native run-ios`
+### `yarn run ios`
 
 Runs the app in the ios development mode.\
 
 The app will reload if you make edits.\
 
-### `yarn react-native start`
+### `yarn  start`
 
 Runs the react native application .\
 
 
-### `yarn react-native run-android --variant=release`
+### `yarn run release`
 
-Builds the app for in release mode.\
+Builds the app in release mode.\
 It correctly bundles React native in production mode and optimizes the build for the best performance.
 
 
