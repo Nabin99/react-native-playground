@@ -1,11 +1,35 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import Icon from '../component/Icon';
+import ScrollViewContainer from '../containers/ScrollViewContainer';
+import {
+  faAdd,
+  faAddressBook,
+  faAmbulance,
+  faBicycle,
+  faBridge,
+  faCar,
+  faUser,
+  faCartPlus,
+} from '@fortawesome/free-solid-svg-icons';
+
+const iconList = [
+  faAdd,
+  faAddressBook,
+  faAmbulance,
+  faBicycle,
+  faBridge,
+  faCar,
+  faUser,
+  faCartPlus,
+];
 
 const IconList = () => {
   return (
-    <View>
-      <Text>This is example</Text>
-    </View>
+    <ScrollViewContainer>
+      {iconList.map((item, i) => (
+        <Icon key={i} icon={item} />
+      ))}
+    </ScrollViewContainer>
   );
 };
 

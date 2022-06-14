@@ -9,7 +9,7 @@ export default ScrollViewContainer;
 
 const styles = StyleSheet.create({
   scroller: {
-    marginTop: 20,
+    marginVertical: 20,
     flex: 1,
     padding: 20,
   },
