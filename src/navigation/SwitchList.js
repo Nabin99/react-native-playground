@@ -1,11 +1,12 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import SwitchDetail from '../component/SwitchComponent';
+import ScrollViewContainer from '../containers/ScrollViewContainer';
 
 const SwitchList = () => {
   return (
-    <View>
-      <Text>This is example</Text>
-    </View>
+    <ScrollViewContainer>
+      <SwitchDetail />
+    </ScrollViewContainer>
   );
 };
 
