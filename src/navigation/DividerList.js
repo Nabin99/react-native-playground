@@ -1,11 +1,14 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import Divider from '../component/DividerComponent';
+import ScrollViewContainer from '../containers/ScrollViewContainer';
 
 const DividerList = () => {
   return (
-    <View>
-      <Text>This is example</Text>
-    </View>
+    <ScrollViewContainer>
+      <Divider text={'This is the component 1 with divider'} />
+      <Divider text={''} />
+      <Divider floatText={true} text={'Think Twice'} />
+    </ScrollViewContainer>
   );
 };
 
