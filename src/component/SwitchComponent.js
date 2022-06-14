@@ -15,7 +15,7 @@ const SwitchDetail = () => {
         value={isEnabled}
       />
       {isEnabled && <Text style={styles.text}>Switch ON</Text>}
-      {isEnabled && <Text style={styles.text}>Switch OFF</Text>}
+      {!isEnabled && <Text style={styles.text}>Switch OFF</Text>}
     </View>
   );
 };

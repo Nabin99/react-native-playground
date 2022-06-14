@@ -1,0 +1,27 @@
+import React, {useState} from 'react';
+import {View, Alert} from 'react-native';
+import ButtonComp from './Button';
+
+const ModalComponent = ({buttonName, modalTitle, modalDescription}) => {
+  const [showModal, showModalSet] = useState(false);
+  const toggleModal = () => {
+    showModalSet(!showModal);
+  };
+  const createAlert = (title, description, button1, button2) =>
+    Alert.alert(title, description, [
+      {
+        text: button1,
+        onPress: () => console.log('Cancel Pressed'),
+        style: 'cancel',
+      },
+      {text: button2, onPress: () => console.log('OK Pressed')},
+    ]);
+  return (
+    <View>
+      <ButtonComp title={buttonName} clickHandler={toggleModal} />
+      {showModal && createAlert(modalTitle, modalDescription, 'OK', 'Cancel')}
+    </View>
+  );
+};
+
+export default ModalComponent;

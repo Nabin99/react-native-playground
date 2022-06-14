@@ -1,12 +1,22 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import ModalComponent from '../component/ModalComponent';
+import ScrollViewContainer from '../containers/ScrollViewContainer';
 
-const ModalList = () => {
+const ModalDetail = () => {
   return (
-    <View>
-      <Text>This is example</Text>
-    </View>
+    <ScrollViewContainer>
+      <ModalComponent
+        buttonName="Modal"
+        modalTitle="Modal"
+        modalDescription="Description about Modal"
+      />
+      <ModalComponent
+        buttonName="Popup"
+        modalTitle="Popup"
+        modalDescription="Description about Popup"
+      />
+    </ScrollViewContainer>
   );
 };
 
-export default ModalList;
+export default ModalDetail;
