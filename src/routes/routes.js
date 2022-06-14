@@ -12,6 +12,7 @@ import SwitchList from '../navigation/SwitchList';
 import TextareaList from '../navigation/TextareaList';
 import TextList from '../navigation/TextList';
 import ToastList from '../navigation/ToastList';
+import InputList from '../navigation/InputList';
 const navigation = [
   {
     name: 'Home',
@@ -66,6 +67,11 @@ const navigation = [
   {
     name: 'SwitchList',
     component: SwitchList,
+    showHeader: true,
+  },
+  {
+    name: 'InputList',
+    component: InputList,
     showHeader: true,
   },
   {

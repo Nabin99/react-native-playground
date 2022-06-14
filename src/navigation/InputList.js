@@ -1,11 +1,13 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import Input from '../component/Input';
+import ScrollViewContainer from '../containers/ScrollViewContainer';
 
 const InputList = () => {
   return (
-    <View>
-      <Text>This is example</Text>
-    </View>
+    <ScrollViewContainer>
+      <Input />
+      <Input boxType="border-bottom" />
+    </ScrollViewContainer>
   );
 };
 

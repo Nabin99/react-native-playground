@@ -27,4 +27,5 @@ const flexStyles = (
     flexDirection,
   });
 
-export default {borderStyles, flexStyles};
+const stylesProvider = {borderStyles, flexStyles};
+export default stylesProvider;

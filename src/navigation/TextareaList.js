@@ -1,11 +1,13 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import InputTextArea from '../component/InputTextArea';
+import ScrollViewContainer from '../containers/ScrollViewContainer';
 
 const TextareaList = () => {
   return (
-    <View>
-      <Text>This is example</Text>
-    </View>
+    <ScrollViewContainer>
+      <InputTextArea />
+      <InputTextArea boxType="border-bottom" />
+    </ScrollViewContainer>
   );
 };
 

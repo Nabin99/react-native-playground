@@ -5,6 +5,7 @@ import FlatListContainer from '../containers/FlatListContainer';
 import textImage from '../assets/texts.jpg';
 import buttonImage from '../assets/buttons.png';
 import toastImage from '../assets/Toast.jpeg';
+import textareaImage from '../assets/textarea.png';
 
 const Home = ({navigation}) => {
   return (
@@ -23,7 +24,7 @@ const Home = ({navigation}) => {
           {id: 9, name: 'InputList', image: textImage},
           {id: 11, name: 'ModalList', image: textImage},
           {id: 11, name: 'SwitchList', image: textImage},
-          {id: 12, name: 'TextareaList', image: textImage},
+          {id: 12, name: 'TextareaList', image: textareaImage},
           {id: 13, name: 'TextList', image: textImage},
           {id: 14, name: 'ToastList', image: toastImage},
         ]}
